@@ -1,0 +1,93 @@
+Golang
+a 20 minutes overview
+10:00 15 Oct 2017
+Tags: golang, tutorial, overview
+
+Éric Robert
+AI Developer, Element AI
+eric@elementai.com
+https://elementai.com
+@3ricrobert
+
+* Why?
+
+Learn at least one new language every year. Different languages solve the same problems in different ways. By learning several different approaches, you can help broaden your thinking and avoid getting stuck in a rut. [...]
+
+-- _The_Pragmatic_Programmer_
+
+* How much work?
+
+A Tour of Go: [[https://tour.golang.org]]
+~8h
+
+The Go Programming Language
+~400 pages
+
+The Go Programming Language Specification
+~86 pages
+
+How does it compare? (this is for fun)
+
+* .
+
+.background languages.png
+
+* Why Go?
+
+- Simple; not easy
+- Built-in concurrency
+- Fast
+- Practical; not pretty
+
+* Make a request
+
+.play 1.go
+
+* How fast is that request?
+
+.play 2.go 
+
+* Make more requests
+
+.play 3.go /START OMIT/,/END OMIT/
+
+* Make a server
+
+.play 4.go /START OMIT/,/END OMIT/
+
+* Send lots of requests (broken)
+
+.play 5a.go /START OMIT/,/END OMIT/
+
+* Send lots of requests (fixed)
+
+.play 5b.go /START OMIT/,/END OMIT/
+
+* Add models (broken)
+
+.play 6a.go /START OMIT/,/END OMIT/
+
+* Add models (fixed)
+
+.play 6b.go /START OMIT/,/END OMIT/
+
+* Make service
+
+.play 7.go /STARTa OMIT/,/END OMIT/
+
+* Make service (continued)
+
+.play 7.go /STARTb OMIT/,/END OMIT/
+
+#   274 pages -- The C Programming Language
+#   400 pages -- The Go Programming Language
+#  1032 pages -- JavaScript: The Definitive Guide
+#  1368 pages -- The C++ Programming Language
+#  1344 pages -- Java™: The Complete Reference
+#  1648 pages -- Learning Python: Powerful Object-Oriented Programming
+#    86 pages -- The Go Programming Language Specification
+#   125 pages -- The Python Language Reference
+#   550 pages -- ISO/IEC 9899 - Programming languages C
+#   604 pages -- The Java™ Language Specification
+#   885 pages -- ECMAScript 2017
+#  1368 pages -- ISO/IEC 14882:2014(E) – Programming Language C++
